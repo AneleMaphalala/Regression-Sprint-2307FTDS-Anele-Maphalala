@@ -22,3 +22,13 @@ The journey, outlined in the comprehensive table of contents, covered various st
 5. Modeling
 6. Model Performance
 7. Model Explanations
+
+# Conclusion
+#### Best Model Selection
+`Random Forest` emerges as the best model for predicting the energy shortfall between fossil fuels and renewable sources.
+- **Lowest Cross-Validation Score**: The Random Forest model has the lowest cross-validation score of 3404.62 indicating it performs better on unseen data compared to Linear Regression and Gradient Boosting. Lower scores signify better model performance in terms of predicting the energy shortfall accurately.
+
+
+- **Validation Root Mean Squared Error (RMSE)**: The Random Forest model has a RMSE of 3320.76, which supports its effectiveness in minimizing prediction errors. RMSE is a commonly used metric for regression tasks, measuring the average magnitude of the prediction error. A lower RMSE indicates better predictive accuracy.
+
+In summary, Random Forest stands out as the most suitable model for this problem due to its lower cross-validation score, favorable validation RMSE, and reasonable test predictions. Its ability to handle non-linear relationships and robustness to outliers further solidifies its selection as the best model for predicting energy shortfall in this context.
